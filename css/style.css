@@ -1,0 +1,25 @@
+.logo-image{
+    height: 60px;
+}
+.buy-now{
+    /*background-image:linear-gradient(top, rgb(17, 17, 17) 0%, rgb(17,17,17)100%);*/
+    background-image: linear-gradient(to bottom, #070707 0%, #0c0a0a 100%);
+    border: none;
+    color: white;
+    padding: 9px 20px;
+    border-radius: 10px;
+}
+.phone-top p{
+    color: 
+    darkorange;
+}
+.card{
+border: none;
+border-radius: 10px;
+box-shadow: 5px 5px 15px lavender;
+
+}
+.card-footer{
+    border: none;
+    background-color: white;
+}
