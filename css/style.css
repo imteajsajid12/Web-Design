@@ -1,7 +1,8 @@
-.logo-image{
+.logo-image {
     height: 60px;
 }
-.buy-now{
+
+.buy-now {
     /*background-image:linear-gradient(top, rgb(17, 17, 17) 0%, rgb(17,17,17)100%);*/
     background-image: linear-gradient(to bottom, #070707 0%, #0c0a0a 100%);
     border: none;
@@ -9,17 +10,51 @@
     padding: 9px 20px;
     border-radius: 10px;
 }
-.phone-top p{
-    color: 
-    darkorange;
+
+.phone-top p {
+    color:
+        darkorange;
 }
-.card{
-border: none;
-border-radius: 10px;
-box-shadow: 5px 5px 15px lavender;
+
+.laptop-top p {
+    color:
+        darkorange;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px lavender;
 
 }
-.card-footer{
+.card img{
+    /*width: 321px;*/
+    padding: 17px;
+}
+
+.card-footer {
     border: none;
     background-color: white;
+    margin: 10px;
+}
+
+.categoris-top p {
+    color: yellow;
+    width: 30px;
+}
+
+.categoris-header {
+    color: yellow;
+}
+
+.border {
+    width: 100px;
+    height: 120px;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px lavender;
+}
+.categoris-item{
+    /*margin-bottom: 80px;*/
 }
