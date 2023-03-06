@@ -1,6 +1,6 @@
 header {
     background-color: #F0FFF0;
-    height: 430px;
+    height: 580px;
 
 
 }
@@ -111,10 +111,10 @@ border-radius: 10px;
     border-radius: 50px;
 }
 .cource-card img{
-    width: 320px;
-    height: 234px;
+    width:100%;
+    height:auto;
     border-radius: 10px;
-    padding-left: 22px;
+    /*padding-left: 22px;*/
 }
 .card-footer{
     border: none;
