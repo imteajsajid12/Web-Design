@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav a {
+    color: rgb(190, 21, 63) !important;
+
+}
+
+.navbar {
+    background-color: #fff;
+    height: 62px;
+
+
+}
+
+.nav-btn {
+    background-image: linear-gradient(to bottom, #b3064b 0%, #be054c 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+}
+
+/*//banner//*/
+.banner {}
+
+.banner-text h1 {
+    width: 70%;
+}
+
+.banner {
+    background: url(../images/bg/bg-1.jpg) no-repeat center;
+    background-size: cover;
+    padding: 100px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner-btn1 {
+    border: none;
+    background-image: linear-gradient(to bottom, #b3064b 0%, #be054c 100%);
+    color: white;
+    padding: 8px 20px;
+
+}
+
+.banner-btn2 {
+    border: none;
+    background-image: linear-gradient(to bottom, #e7d6df 0%, #d6c9c9 100%);
+    color: rgb(5, 5, 5);
+    padding: 8px 20px;
+}
+
+.count {
+    background-color: #8b093d;
+    /*height: 150px;*/
+    color: #fff;
+}
+
+.about img {
+    border-radius: 30px;
+
+}
+
+.abouts {
+    padding-top: 30px;
+}
+
+.about-btn {
+    border: none;
+    background-image: linear-gradient(to bottom, #b3064b 0%, #be054c 100%);
+    color: white;
+    padding: 8px 20px;
+
+}
+
+.food-type {
+    padding-top: 30px;
+}
+
+.storys {
+    background: url(../images/bg/bg-2.jpg);
+    background-size: cover;
+    padding: 180px 0px;
+    margin-top: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.storys h2 {
+    color: #8b093d;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-footer {
+    border: none;
+    background-color: #fff;
+}
+
+.food-text {
+    margin: 57px 44px;
+}
+
+.testimonial {
+    background-color: #8b093d;
+    color: #fff;
+    height: 400px;
+    text-align: center;
+
+}
+
+.testimonial-item {
+    background-color: #fff;
+    height: 250px;
+    /*width: 80%;*/
+    border-radius: 40px;
+    padding: 20px;
+}
+
+.carousel-item img {
+
+    height: 90px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+
+}
+
+.carousal-text {
+    color: black;
+    /*width: 80px;*/
+    padding: 22px
+}
+
+.ask-questions {
+    margin: 70px 0px;
+}
+.book-food{
+    width: 100%;
+    background: url(../images/bg/bg-3.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-position: center;
+    padding: 65px 0;
+color: #fff;
+}
+.newsletter{
+    margin: 80px auto;
+    width: 57%;
+    background: transparent;
+    font-weight: 700;
+}
+.newsletter-btn{
+    padding-left: 100px;
+}
