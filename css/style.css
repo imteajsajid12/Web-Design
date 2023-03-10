@@ -161,3 +161,20 @@ color: #fff;
 .newsletter-btn{
     padding-left: 100px;
 }
+footer{
+    background-color: #8b093d;
+    width: 100%;
+    height: 300px;
+    color: #fff;
+}
+.footer-link{
+    color: #fff;
+    padding: 0 30px;
+    font-size: 20px;
+  
+}
+.footer-social i{
+    color: #fff;
+    font-size: 30px;
+    padding: 0 20px;
+}
