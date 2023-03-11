@@ -110,8 +110,10 @@ body {
 .testimonial {
     background-color: #8b093d;
     color: #fff;
-    height: 400px;
+    height: 500px;
     text-align: center;
+    padding-top: 45px;
+
 
 }
 
@@ -177,4 +179,24 @@ footer{
     color: #fff;
     font-size: 30px;
     padding: 0 20px;
+}
+.abouts .about-image img{
+    width: 100%;
+    animation: float 5s ease-in-out infinite;
+
+}
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+    
+.explore_foods{
+padding-top: 65px;
 }
