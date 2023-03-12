@@ -10,7 +10,7 @@ body {
 
 .navbar {
     background-color: #fff;
-    height: 62px;
+    /*height: 62px;*/
 
 
 }
@@ -27,13 +27,13 @@ body {
 .banner {}
 
 .banner-text h1 {
-    width: 70%;
+    width: 90%;
 }
 
 .banner {
     background: url(../images/bg/bg-1.jpg) no-repeat center;
     background-size: cover;
-    padding: 100px 0px;
+    padding: 80px 0px;
     width: 100%;
     overflow: hidden;
 }
