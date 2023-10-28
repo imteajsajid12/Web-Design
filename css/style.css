@@ -178,10 +178,10 @@ bottom: -70px;
 right: 0;
 left: 0;
 background-color: #fff;
-transform: skewY(-5deg);
--webkit-transform: skewY(-5deg);
--ms-transform: skewY(-5deg);
--moz-transform: skewY(-5deg);
+transform: skewY(-2deg);
+-webkit-transform: skewY(-2deg);
+-ms-transform: skewY(-2deg);
+-moz-transform: skewY(-2deg);
 }
 
  .showcase .grid{
@@ -202,7 +202,7 @@ transform: skewY(-5deg);
     position: relative;
     top: 60px;
     height: 350px;
-    width: 240px;
+    width: 90%;
     padding: 40px;
     z-index: 100;
 
@@ -315,6 +315,7 @@ margin: auto;
 .footer{
     background-color: black;
     color: #fff;
+    padding: 50px 0;
 }
 .social i{
     color: #fff;
