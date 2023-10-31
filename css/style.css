@@ -227,6 +227,15 @@ margin: 30px 0;
 .showcase p {
     margin: 20px 0;
 }
+
+.showcase-text{
+    animation: slide_left 1s ease-in;
+}
+.showcase-form{
+    animation: slide_right 1s ease-in;
+}
+
+
 .btn{
    display: inline-block; 
    padding: 10px 30px;
@@ -248,6 +257,7 @@ border-radius: 10px;
  /*stasus*/
  .status{
     padding-top: 100px;
+    animation: side_bottom 1s ease-in;
  }
  .status-heading {
 max-width: 500px;
@@ -380,4 +390,49 @@ margin: auto;
     justify-items: center;
     text-align: center;
 }
+}
+
+
+
+
+
+ /*animations*/
+ @keyframes slide_left {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+
+    }
+}
+@keyframes slide_right {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(0%);
+
+    }
+
+}
+@keyframes slide_top {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+
+    }
+
+}
+@keyframes slide_bottom {
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0%);
+
+    }
+
 }

@@ -17,11 +17,13 @@
     .showcase-text {
         align-items: center;
         margin-top: 40px;
+        animation: slide_top 1s ease-in;
     }
 
     .showcase-form {
         justify-self: center;
         width: 65%;
+        animation: slide_bottom 1s ease-in;
     }
     .cli{
         justify-self: center;

@@ -53,6 +53,9 @@ padding: 40px;
   
  }
 
+
+
+
 /*media*/
 @media(max-width:768px) {
     /*body{
@@ -92,7 +95,7 @@ padding: 40px;
         grid-column: 1/span 3;
         /*grid-row: / span 3;*/
      }
-     .server-list .grid :nth-child(6`){
+     .server-list .grid :nth-child(6){
         grid-column: 1/span 3;
         /*grid-row: / span 3;*/
      }
