@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: o;
+}
+
+body {
+
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #dedede;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+a {
+    text-decoration: none;
+
+
+}
+
+header {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px -1px rgb(0, 0, 0);
+    padding: 0px 30px;
+    overflow: hidden;
+}
+
+header .logo {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 200PX;
+    height: 300px;
+    background: #282828;
+    transition: 1s linear;
+    border-radius: 0px 0px 15px 15px;
+}
+
+header .logo h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+
+}
+
+header nav a {
+    position: relative;
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 2s linear;
+}
+
+.right-menu li :hover {
+    border-bottom: 2px #871a1a solid;
+}
+
+header img {
+    width: 300px;
+    margin: 0px 0px 0px -45px;
+    filter: drop-shadow(0px 0px 20px rgb(0, 0, 0, .9));
+
+}
+
+header nav {
+    padding: 17px 0px;
+    /*width: 100%;
+    height: 10%;*/
+    /*border: 1px solid #000;*/
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .manu {
+    font-size: 30px;
+}
+
+nav .right-menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.left-menu {
+    /*padding-top: 15px;*/
+}
+
+.left-menu i {
+    /*padding: 7px 0px 0px 0px;*/
+}
+
+.containt {
+    position: relative;
+    left: 320px;
+    top: 30px;
+
+}
+
+.containt h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.containt p {
+    font-size: 15px;
+    width: 500px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.containt .price h2 {
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.containt .price a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fcfbfb;
+    padding: 10px 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    /*background color linier*/
+    /*background-image: linear-gradient(rgb(207, 237, 99) 10px, rgb(194, 177, 68));*/
+    background-color: #000;
+}
+
+.containt .price-btn {
+    margin-top: 20px;
+}
+
+.cardss {
+    width: 90%;
+    height: 140px;
+    /*border: 1px solid #000;*/
+    position: relative;
+    top: 100px;
+    left: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: auto;
+    transition: 1s linear;
+    overflow: auto;
+    scroll-behavior: smooth;
+}       
+
+.cardss::-webkit-scrollbar {
+    display: none;
+}
+
+.card {
+    position: relative;
+    min-width: 125px;
+    min-height: 125px;
+    /*border: 1px solid #000;*/
+    margin-right: 14px;
+    background: #282828;
+    border-radius: 50px 10px 10px 10px;
+    transition: 1s linear;
+}
+
+.card img {
+    position: relative;
+    left: 40px;
+    top: -18px;
+    width: 80px;
+    height: 90px;
+
+    /*align-items: center;*/
+
+}
+
+.card-title {
+    position: relative;
+    left: 8px;
+    top: -29px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.cards-price {
+    margin-top: 5px;
+    position: relative;
+    left: 8px;
+    top: -29px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cards-price i {
+    padding-right: 18px;
+}
+
+.social {
+    top: 120px;
+    left: 27px;
+    
+    position: relative;
+    width: 90%;
+    border: 10x solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.social .btns{
+    padding: 0px 15px;
+    cursor: pointer;
+    
+}
+.social .btns i{
+    padding: 0px 5px;
+    
+}
+.social-icon{
+    text-decoration: none;
+}
+.social-icon a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+
+/*mediA*/
+/*mobile*/
+@media (max-width:500px) {
+body{
+    /*display: none;*/
+}
+header {
+    position: relative;
+    width: 70%;
+    height: 92%;
+    background-color: #fff;
+    box-shadow: 0px 0px 50px -1px rgb(0, 0, 0);
+    padding: 0px 30px;
+    overflow: hidden;
+}
+header .logo {
+    position: absolute;
+    top: 0;
+    left: 25%;
+    margin: auto;
+    width: 200PX;
+    height: 300px;
+    background: #282828;
+    transition: 1s linear;
+    border-radius: 0px 0px 15px 15px;
+}
+
+nav .right-menu {
+    display: flex;
+    align-items: center;
+  
+}
+nav ul {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 10%;
+    right: -30px;
+    flex-direction: column;
+    transition: 1s linear ;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 23px 10px;
+    transform: rotate(90deg);
+   
+}
+
+.containt {
+    position: relative;
+    left: 0px;
+    top: 254px;
+    transition: 1s linear;
+
+}
+.containt p {
+    font-size: 13px;
+    max-width: 230px;
+    font-weight: 400;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.cardss {
+    width: 150%;
+    height: 132px;
+    /* border: 1px solid #000; */
+    position: relative;
+    top: 273px;
+    left: -20px;
+    /* padding-left: 10px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    overflow: auto;
+    transition: 1s linear;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.social {
+    top: 282px;
+    left: -10px;
+    position: relative;
+    width: 90%;
+    border: 10x solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
