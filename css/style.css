@@ -12,6 +12,9 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+.mt-5{
+    margin-top: 60px;
+}
 header {}
 
 .container {
@@ -167,6 +170,7 @@ nav ul li {
     z-index: -1;
 
 }
+
 .secound_banner {
     /*margin-top: 30px;*/
     padding: 50px 50px;
@@ -264,22 +268,25 @@ nav ul li {
 
 /*best_selling*/
 
-.best_selling{
+.best_selling {
     padding: 20px 10px;
 }
-.best_selling h1{
+
+.best_selling h1 {
     font-weight: bold;
-font-size: 40px;
-text-align: center;    
+    font-size: 40px;
+    text-align: center;
 }
-.best_selling .row{
+
+.best_selling .row {
     display: flex;
     align-items: center;
     justify-content: space-around;
     padding: 30px 0px;
     transition: 1s linear;
 }
-.best_selling .card{
+
+.best_selling .card {
     border-radius: 30px;
     height: 400px;
     width: 330px;
@@ -293,79 +300,193 @@ text-align: center;
     /*background-color: #000  ;*/
 }
 
-.best_selling .card_image{}
-.best_selling .card_image img{
+.best_selling .card_image {}
+
+.best_selling .card_image img {
     position: absolute;
     width: 330px;
-    top: -80px      ;
+    top: -80px;
 }
-.best_selling .card_title{
+
+.best_selling .card_title {
     padding: 200px 12px;
-    /*text-align: center;*/
-   
+    
+
 }
-.card_price{
+
+.card_price {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 30px 5px;
 }
-.card .price_card{
+
+.card .price_card {
     cursor: pointer;
     padding: 10px 16px;
     border-radius: 10px;
     background-color: #5566;
-   
+
 }
-.card .price_card a{
+
+.card .price_card a {
     color: #000;
-    
-  
-   
+
+
+
 }
 
-.price_card  :hover{
-   
+.price_card :hover {
+
     position: relative;
-   transition: 0.7s linear;
-   color: #fff;
-   right: 3px;
+    transition: 0.7s linear;
+    color: #fff;
+    right: 3 px;
 
 }
 
+/*.card  :hover{
+    position: relative;
+    top:70px;
+    transition: 1s;
+}*/
+
+/*offer*/
+.offer {
+    padding: 50px 0px;
+    transition: 1s linear;
+}
+
+.offer .row {
+    transition: 1s linear;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.offer_title{
+    max-width: 500px;
+}
+.offer_title h1{
+    transition: 1s linear;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.offer .image img{
+    width: 650px;
+}
+
+.offer .offer_button{
+    margin-top: 20px;
+}
+.offer .offer_button a {
+   
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+/*blog*/
+
+.blog{
+    /*position: absolute;
+    display: flex;*/
+}
+
+.blog .blog_header h1{
+text-align: center;
+font-weight: bold;
+font-size: 45px;
+}
 
 
+.blog .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
+    transition: 1s linear;
+}
 
+.blog .card {
+    /*margin-top: 70px;*/
+    border-radius: 30px;
+    height: 400px;
+    width: 330px;
+    position: relative;
 
+    box-shadow: 5px 5px 10px gray;
+    /*border: 2px dashed rgb(112, 111, 107);*/
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 1s linear;
+    /*background-color: #000  ;*/
+}
 
+.blog .card_image {}
 
+.blog .card_image img {
+    position: absolute;
+    width: 330px;
+    top: -80px;
+}
 
+.blog .card_title {
+    padding: 200px 12px;
 
+}
 
+.blog .card_date{
+    margin-top: 10px;
+}
+.blog .card_button{
+margin-top: 20px;
+}
+.blog .card_button a{
+    background: none;
+    padding: 10px;
+    border: 1px solid black;
+    outline: none;
+    color: black;
 
+}
 
+footer{
+margin-top: 60px;
+padding: 50px 0``;
+}
+.footer .subscribe{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.subscribe input {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    background: rgba(0,0,0,0.05);
+    outline: none;
+}
 
+.subscribe button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #7f8fa6;
+}
 
+.footer .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer a{
+    color:#000;
+}
+.footer ul{}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer li
+{
+    padding: 5px 0; 
+}
