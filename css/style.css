@@ -101,6 +101,7 @@ nav ul li {
 
 .left_banner {
     /*width: 700px;*/
+    flex-basis: 130%;
     max-width: 500px;
     transition: 1s linear;
     animation: slide_left 1s ease-in;
@@ -126,9 +127,15 @@ nav ul li {
 }
 
 .banner_title h1 {
-    font-size: 50px;
+   
     font-weight: bold;
     transition: 1s linear;
+    color:#999;
+    text-transform: uppercase;
+    font-size:40px;
+    font-weight:bold;
+    /*position:fixed;*/
+   
 
 }
 
@@ -156,6 +163,46 @@ nav ul li {
     width: 90%;
     float: right;
 }
+
+#flip {
+    height:90px;
+    overflow:hidden;
+  }
+  
+  #flip > div > div {
+    color:#fff;
+    padding:4px 12px;
+    /*height:45px;*/
+    margin-bottom:45px;
+    display:inline-block;
+  }
+  
+  #flip div:first-child {
+    animation: show 5s linear infinite;
+  }
+  
+  #flip div div {
+    background:#999;
+    border-radius: 10px;
+  }
+  #flip div:first-child div {
+    background:#b3b6b7;
+  }
+  #flip div:last-child div {
+    background:#635d5e;
+  }
+  
+  @keyframes show {
+    0% {margin-top:-270px;}
+    5% {margin-top:-180px;}
+    33% {margin-top:-180px;}
+    38% {margin-top:-90px;}
+    66% {margin-top:-90px;}
+    71% {margin-top:0px;}
+    99.99% {margin-top:0px;}
+    100% {margin-top:-270px;}
+  }
+
 
 /*banner 2*/
 
@@ -213,6 +260,7 @@ nav ul li {
 /*3rd banner*/
 
 .banner_3rd {
+    position: relative;
     transition: 1s linear;
 }
 
@@ -224,17 +272,20 @@ nav ul li {
 }
 
 .banner_3rd .circle {
-    width: 300px;
-    height: 300px;
+    width: 340px;
+    height: 340px;
     background: rgba(0, 0, 0, 0.05);
     border-radius: 50%;
     position: absolute;
-    top: 185%;
-    right: 9%;
+    top: 10%;
+    right: 10%;
     z-index: -1;
 }
 
 .banner_3rd .left_banner {}
+.banner_3rd .left_banner  .banner_text{
+    width: 600px;
+}
 
 .banner_3rd .banner_button {
     margin-top: 25px;
@@ -262,7 +313,7 @@ nav ul li {
 .banner_3rd .right_banner .image {}
 
 .banner_3rd .right_banner img {
-    width: 600px;
+    width: 500px;
     transition: 1a linear;
 }
 
@@ -284,9 +335,11 @@ nav ul li {
     justify-content: space-around;
     padding: 30px 0px;
     transition: 1s linear;
+    flex-wrap: wrap;
 }
 
 .best_selling .card {
+    margin: 15px 5px;
     border-radius: 30px;
     height: 400px;
     width: 330px;
@@ -407,13 +460,15 @@ font-size: 45px;
     justify-content: space-around;
     padding: 30px 0px;
     transition: 1s linear;
+    flex-wrap: wrap;
 }
 
 .blog .card {
-    /*margin-top: 70px;*/
+   
+    margin-top: 10px;
     border-radius: 30px;
     height: 400px;
-    width: 330px;
+    width: 320px;
     position: relative;
 
     box-shadow: 5px 5px 10px gray;
@@ -454,7 +509,7 @@ margin-top: 20px;
 
 footer{
 margin-top: 60px;
-padding: 50px 0``;
+padding: 50px 0;
 }
 .footer .subscribe{
     text-align: center;
@@ -489,4 +544,166 @@ padding: 50px 0``;
 .footer li
 {
     padding: 5px 0; 
+}
+
+
+
+
+
+
+
+
+
+  
+ 
+
+
+
+/*media*/
+
+/*tablates*/
+@media(max-width:768px) {
+body{
+    /*display: none;*/
+}
+
+
+
+.left_banner {
+    margin-top: 50px;
+    width: 700px;
+    max-width: 500px;
+    transition: 1s linear;
+    animation: slide_left 1s ease-in;
+
+}
+.banner .circle {
+    height: 300px;
+    width: 300px;
+}
+
+.banner .image {
+    margin-top: 86px;
+    padding: 10px;
+    margin-right: -132px;
+}
+
+
+.banner img {
+    transition: 1s linear;
+    width: 90%;
+    float: left;
+  
+}
+
+
+/*2nd banner*/
+
+.secound_banner
+{
+margin-top: 50px;
+}
+
+
+
+.secound_banner .circle {
+    width: 300px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    right: 50%;
+    z-index: -1;
+
+}
+.secound_banner .left_banner {
+
+
+}
+.secound_banner .left_banner img{
+width: 330px;
+}
+.secound_banner .right_banner {
+
+padding: 0;
+}
+.secound_banner .right_banner .banner_text {
+
+width: 300px;
+}
+
+
+/*3rd banner*/
+.banner_3rd{}
+
+.banner_3rd .left_banner{}
+.banner_3rd .left_banner .banner_text{
+    width: 300px    ;
+}
+.banner_3rd .right_banner{}
+.banner_3rd .banner_image  img{
+  width: 400px;
+}
+
+.banner_3rd .circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    /*top: 10%;*/
+    right: 5%;
+    z-index: -1;
+}
+
+
+.best_selling .row{
+
+padding: 10px 0;
+
+}
+
+.best_selling .card {
+margin: 10px;
+width: 235px;
+
+    /*background-color: #000  ;*/
+}
+.best_selling .card img{
+    position: absolute;
+width: 200px;
+top: -24px;
+padding: 10px;
+}
+
+
+/*offer*/
+.offer{}
+.offer .row{
+}
+.offer .left_item{
+    
+}
+.offer .image img{
+    width: 350px;
+}
+
+
+/*blog*/
+
+.blog .card{
+    margin: 15px 5px;
+}
+.blog .card_title {
+    padding: 165px 12px;
+}
+.blog .card_image img {
+    padding: 5px;
+    width: 214px;
+    top: -34px;
+}
+
+}
+
+/*phone*/
+@media (max-width:500px) {
 }
