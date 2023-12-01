@@ -19,7 +19,17 @@ counters.forEach(counter => {
 });
 
 
-
+function myFunction() {
+  
+    $( document ).ready(function() {
+      if($(".nav-items").hasClass("active")){
+        $(".nav-items").removeClass("active");
+      }
+      else{
+        $(".nav-items").addClass("active");
+      }
+    });
+    }
 
 
 
