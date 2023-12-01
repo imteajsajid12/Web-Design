@@ -846,10 +846,11 @@ text-align: center;*/
 
 
 footer{}
-footer .row{
+.footer .row{
     flex-wrap: wrap;
+    /*flex-direction: ;*/
 }
-footer .menu{
+footer ul{
     margin-bottom: 10px ;
 }
 
